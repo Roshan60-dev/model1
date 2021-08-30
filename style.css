@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tdiv{
+    width: 100%;
+    display: flex;
+}
+.idiv1{
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+.idiv2{
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+.idiv3{
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.tdiv2{
+    position: relative;
+}
+.matchimage{
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%);
+
+}
+.imgsize{
+    cursor: pointer;
+    width: 240px;
+    height: 225px;
+}
+#resultdisplay{
+    text-align: center;
+}

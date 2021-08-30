@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sps game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <h1>STONE PAPER SCISSOR</h1>
+    </div><br>
+    <div class="tdiv">
+        <div class="idiv1">
+            <input type="image" class="imgsize" src="1.png" alt="image" value="1" onclick="twice(this.value)" id="imgid1">            
+        </div>
+        <div class="idiv2">
+            <input type="image"
+            src="2.png" alt="image" class="imgsize" value="2" onclick="twice(this.value)" id="imgid2">
+        </div>
+        <div class="idiv3">
+            <input type="image"
+             src="3.png" alt="image" class="imgsize" value="3" onclick="twice(this.value)" id="imgid3">
+        </div>
+    </div>
+    <div>
+        <p id="resultdisplay"></p>
+    </div>
+
+        <div class="tdiv2">
+            <div class="matchimage">
+                <img src="1.png" alt="image" class="imgsize" id="changeimage" style="display: none">
+            </div>
+        </div>
+
+</body>
+</html>
